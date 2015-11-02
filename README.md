@@ -24,4 +24,19 @@ fadeIn: ->
   ...
 ```
 
+## Compile the Coffeescript do a JavaScript file
+In order to compile to a JavaScript file, just install the node coffescript compiler [https://www.npmjs.com/package/coffeescript-compiler] globally:
+
+```bash
+npm install -g coffeescript-compiler
+```
+
+Afeter, just type:
+
+```bash
+cake build
+```
+
+checkout the lib directory.
+
 Happy Coding!
